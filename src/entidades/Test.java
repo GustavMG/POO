@@ -8,6 +8,18 @@ public class Test {
 		
 		otroEmpleado.mostrarInformacion();
 		EvilFelipe.mostrarInformacion();
+		
+		//Instancia cliente
+		System.out.println();
+		System.out.println("Instancia de un Cliente");
+		
+		Cliente jesus = new Cliente("Jesus Gonzalez", "ABCD1234", 157654.00f, "1234");
+		
+		jesus.mostrarInfoCliente();
+		
+		jesus.nombre = "Gustav";
+		jesus.setSaldo(0.00f);
+		jesus.mostrarInfoCliente();
 	}
 
 }
